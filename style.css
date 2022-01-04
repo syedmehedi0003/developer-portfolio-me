@@ -16,16 +16,12 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    margin: 0;
-    
-}
+
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 10%
 }
 .half-width img{
     width: 80%;
@@ -38,4 +34,17 @@ section{
     color: white;
     font-size: 20px;
     font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat; 
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.right{
+   margin-right: 50px;  /*  dont work  */
 }
